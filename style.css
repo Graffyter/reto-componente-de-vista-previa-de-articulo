@@ -79,24 +79,31 @@ body{
 }
 .shareActive{
     position: absolute;
-    left: 100px;
-    top: 100px;
-    
 }
 .social{
     width: 200px;
     height: 40px;
     background-color: var(--very-dark-grayisg-blue);
     display: flex;
-    color: white;
+    color: var(--grayish-blue);
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
+    font-size: 12px;
 }
 .icon{
     height: 20px;
     width: 20px;
-    margin: 5px 5px 5px 0 ;
+    margin: 5px 10px 5px 0 ;
+}
+.row{
+    position: relative;
+    left: 100PX;
+    top: -8px;
+    height: 15px;
+    width: 15px;
+    background-color: var(--very-dark-grayisg-blue);
+    transform: rotate(45deg);
 }
 
 
