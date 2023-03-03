@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+:root{
+    --very-dark-grayisg-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    --body-copy: 13px;
+}
+
+body{
+    background-color: rgb(227, 248, 255) ;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+}
+
+.mainCard {
+    height: 300px;
+    width: 800px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+}
+
+.banner{
+    object-fit: cover;
+    height: 100%;
+    width: 300px;
+    border-radius: 20px 0 0 20px;
+}
+.mainText{
+    margin: 25px;
+}
+.title{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--very-dark-grayisg-blue);
+}
+.section{
+    color: var(--desaturated-dark-blue);
+    margin-bottom: 15px;
+}
+.autor{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.data{
+    width: 135px;
+    margin-right: 215px;
+}
+.name{
+    color: var(--very-dark-grayisg-blue);
+}
+.date{
+    color: var(--grayish-blue);
+    font-size: 13px;
+}
+.button{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: var(--light-grayish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inactive{
+    display: none;
+}
+.shareActive{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    
+}
+.social{
+    width: 200px;
+    height: 40px;
+    background-color: var(--very-dark-grayisg-blue);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin: 5px 5px 5px 0 ;
+}
+
+
+
