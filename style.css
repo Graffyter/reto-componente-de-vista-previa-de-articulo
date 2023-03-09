@@ -42,7 +42,7 @@ body{
 }
 .section{
     color: var(--desaturated-dark-blue);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .autor{
     display: flex;
@@ -73,15 +73,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .inactive{
     display: none;
 }
 .shareActive{
     position: absolute;
+    top: 53%;
+    left: 66%;
+    width: 200px;
 }
 .social{
-    width: 200px;
+    width: 100%;
     height: 40px;
     background-color: var(--very-dark-grayisg-blue);
     display: flex;
@@ -105,6 +109,38 @@ body{
     background-color: var(--very-dark-grayisg-blue);
     transform: rotate(45deg);
 }
+
+@media(max-width: 600px){
+    .mainCard{
+        display: block;
+        height: 600px;
+        width: 400px;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+        border-radius: 20px 20px 0 0;
+    }
+    .title{
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        color: var(--very-dark-grayisg-blue);
+    }
+    .data{
+        width: 200px;
+        margin-right: 50px;
+    }
+    .shareActive{
+        position: static;
+        width: 100%;
+        height: 50px;
+    }
+    .row{
+        display: none;
+    }
+}
+
 
 
 
